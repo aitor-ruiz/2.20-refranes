@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    border: solid 5px black;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  p.a {
+    border-left: double 22px red;
+    border-top: double 22px red;
+  }
+  
+  p.b {
+    border-color: blue green;
+    border-width: 5px 10px 20px 35px;
+    border-style: dashed;
+  }
+  
+  p.c {
+    border-color: rgb(228, 195, 9);
+    border-width: 35px 10px;
+    border-style: double;
+  }
+  
+  p.d {
+    border-color: rgb(25, 236, 25) black rgb(23, 23, 211);
+    border-width: 20px;
+    border-style: solid none;
+  }
+  
+  p.e {
+    border-color: rgb(238, 50, 50) black black;
+    border-width: 35px;
+    border-style: dashed solid dotted;
+  }
+  
+  p.f {
+    border-color: black black black rgb(230, 35, 35);
+    border-width: 10px 40px 20px;
+    border-style: dotted solid dashed double;
+  }
